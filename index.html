@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/scripts.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_experience_design_re_dmqq.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <header class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-botton">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+
+                </header>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="primeiro-nome">Primeiro nome</label> <!--Label = Legenda-->
+                        <input id="primeiro-nome" type="text" name="priemrio-nome" placeholder="Digite seu primeiro nome" required> <!--Placeholder é o texto que vem dentro do input, jpa o required quer dizer que essa etapa é obrigatória para o usuário-->
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="ultimo-nome">Sobrenome</label> 
+                        <input id="ultimo-nome" type="text" name="ultimo-nome" placeholder="Digite seu sobrenome" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label> 
+                        <input id="email" type="email" name="email" placeholder="Digite seu E-mail" required> 
+
+
+                    </div>
+
+                    <div class="input-box">
+                        <label for="celular">Celular</label> 
+                        <input id="celular" type="tel" name="celular" placeholder="(xx) xxxxx-xxxx " required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="senha">Senha</label> 
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required> 
+
+
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="confirmasenha">Confirme a senha</label> 
+                        <input id="confrimasenha" type="password" name="confirmasenha" placeholder="Digite novamente sua senha" required> 
+
+
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gêneros</h6>
+                    </div>
+                    
+                    <div class="gender-group">
+                        <div clas="gender-input">
+                            <input type="radio" id="Female" name="gender">
+                            <label for="Famale">Faminino</label>
+                        </div>
+                        <div clas="gender-input">
+                            <input type="radio" id="Male" name="gender">
+                            <label for="Male">Masculino</label>
+                        </div>
+
+                        <div clas="gender-input">
+                            <input type="radio" id="Outros" name="gender">
+                            <label for="Outros">Outros</label>
+                        </div>
+                        
+                        <div clas="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="Fnone">Prefiro não informar</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form> 
+        </div>
+    </div>
+    
+
+    </script>
+</body>
+</html>
