@@ -25,8 +25,6 @@ Com base nas informações solicitadas no formulário, pode-se supor que o objet
   
   * FlexBox;
   
-  * OpenWeatherMap API.
-  
   * Responsividade.
 
 ## Desenvolvido por:
