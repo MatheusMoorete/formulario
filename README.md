@@ -1,4 +1,4 @@
-<h1> Formulário de Cadastro </h1>
+<h1> Formulário de Cadastro :memo: </h1>
 
 A pagia um formulário que permite aos usuários inserir informações e enviá-las. O objetivo do site é coletar dados dos usuários para uma finalidade específica, que não é explicitamente declarada no site.
 
